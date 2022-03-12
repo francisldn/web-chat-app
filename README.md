@@ -15,3 +15,7 @@ It’s a page that opens in the browser, and shows the messages in colored bubbl
 * Your CSS needs to be clean.
  
 * Use 3 separate files: one for CSS, one for HTML, and one for JavaScript and jQuery.
+
+## Deployed URL
+The app is also deployed to the address below:
+https://chatty-web-chat-app.vercel.app/
