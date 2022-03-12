@@ -61,7 +61,7 @@ function botResponse(msg) {
         ["im fine thanks", "im good here thanks","pretty good thanks","good thanks","fine", "fine too thanks", "im good thanks","im good thank you"],
         ["im sad","i feel bad","bad day","not good"]
     ]
-    // create sample user responses
+    // create sample bot responses
     let response = [
         ["I'm fine, thank you! How about you?","Good, how about you?", "Pretty good, thank you. How about you?", "Very good, hope you are well too", "I'm fine, thanks. How about you?"],
         ["Hi","Hey","Hello","Good day"],
