@@ -1,4 +1,4 @@
-# Chatty Web Chap App
+# Chatty Web Chat App
 
 Build a simple chat application using HTML, CSS, JavaScript and jQuery.
 
