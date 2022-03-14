@@ -1,114 +1,115 @@
 * {
-  padding: 10px;
-  margin: auto;
-  background-color: antiquewhite;
+    padding: 10px;
+    margin: auto;
+    background-color: antiquewhite;
 }
 
 #wrapper {
-  margin: 0 auto;
-  padding-bottom: 10px;
-  background-color: lightblue;
-  width: 600px;
-  max-width: 100%;
-  border: 2px solid #212121;
-  border-radius: 4px;
-  text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    width: 600px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+    text-align: center;
 }
 
 #menu {
-  background-color: lightblue;
+    background-color: lightblue;
 }
 
 .welcome {
-  background-color: lightblue;
-  font-family: "Comic Neue", cursive;
-  font-size: larger;
-  font-weight: 1000;
+    background-color: lightblue;
+    font-family: "Comic Neue", cursive;
+    font-size: larger;
+    font-weight: 1000;
 }
 
 #chatbox {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  padding: 10px;
-  height: 350px;
-  width: 600px;
-  border: 1px solid black;
-  overflow-y: scroll;
-  overflow-wrap: break-word;
-  border-radius: 4px;
-  border-bottom: 5px solid #a7a7a7;
-  border-right: 5px solid #a7a7a7;
-  background-color: white;
-  background-image: url("./gif/chat-background.webp");
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 600px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    border-radius: 4px;
+    border-bottom: 5px solid #a7a7a7;
+    border-right: 5px solid #a7a7a7;
+    background-color: white;
+    background-image: url("./gif/chat-background.webp");
+    flex-wrap: wrap;
 }
 
 form {
-  justify-content: center;
-  display: flex;
-  padding: 10px 15px;
-  gap: 15px;
-  width: 600px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+    width: 600px;
 }
 
 button {
-  background-color: lightgreen;
-  transition-duration: 0.3s;
+    background-color: lightgreen;
+    transition-duration: 0.3s;
 }
 
 button:hover {
-  background-color: darkgreen;
-  color: white;
+    background-color: darkgreen;
+    color: white;
 }
 
 #submit {
-  background-color: lightgreen;
+    background-color: lightgreen;
 }
 
 #msg {
-  width: 800px;
-  padding-right: 10px;
+    width: 800px;
+    padding-right: 10px;
 }
 
 .clear {
-  display: flex;
+    display: flex;
 }
 
 #msg-input {
-  width: 620px;
-  background-color: white;
+    width: 620px;
+    background-color: white;
 }
 
 #dt {
-  display: flex-end;
-  font-size: 10px;
+    display: flex-end;
+    font-size: 10px;
 }
 
 #mymsg {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  background-color: rgba(154, 205, 50, 1);
-  flex-wrap: wrap;
-  border-radius: 10px;
-  inline-size: max-content;
-  max-width: fit-content;
-  float: left;
-  clear: right;
-  margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgba(154, 205, 50, 1);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    inline-size: max-content;
+    max-width: 550px;
+    float: left;
+    clear: right;
+    margin: 5px;
 }
 
 #botmsg {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  background-color: rgba(173, 216, 230, 1);
-  flex-wrap: wrap;
-  inline-size: max-content;
-  max-width: fit-content;
-  float: right;
-  clear: left;
-  border-radius: 10px;
-  margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgba(173, 216, 230, 1);
+    flex-wrap: wrap;
+    inline-size: max-content;
+    max-width: 550px;
+    float: right;
+    clear: left;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 span {
-  background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
 }
